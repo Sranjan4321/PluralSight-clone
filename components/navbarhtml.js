@@ -20,9 +20,9 @@ function navbar(){
               <div class="first">
                <p class="first_head">ways to upskill</p>
                <ul class="first_lists">
-                 <li class="lists"><a href="#"><span><i class="fas fa-qrcode"></i></span>Course</a></li>
-                 <li class="lists"><a href="#"><span><i class="fas fa-map-marker-alt"></i></span>Skill assessments</a></li>
-                 <li class="lists"><a href="#"><span><i class="fas fa-cloud"></i></i></span>labs</a></li>
+                 <li class="lists"><a href="/platform/courses/courses.html"><span><i class="fas fa-qrcode"></i></span>Course</a></li>
+                 <li class="lists"><a href="/platform/skill.html"><span><i class="fas fa-map-marker-alt"></i></span>Skill assessments</a></li>
+                 <li class="lists"><a href="/platform/labs.html"><span><i class="fas fa-cloud"></i></i></span>labs</a></li>
                  <li class="lists"><a href="#"><span><i class="fas fa-hand-sparkles"></i></span>hands on learning</a></li>
                  <li class="lists"><a href="#"><span ><i class="fas fa-stamp"></i></span>Certification prep</a></li>
                  <li class="lists"><a href="#"><span><i class="fas fa-headset"></i></span>Live Class</a></li>
@@ -87,7 +87,6 @@ function navbar(){
             product
           </div>
           <div class="dropdown_menu">
-            <!-- https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png -->
             <div class="product_main">
               <div class="product left">
               <a href="/products/skill.html"> <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="">
@@ -101,7 +100,7 @@ function navbar(){
               
               </div>
               <div class="product right">
-                <a href="#"> <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Flow_Logo_white.png" alt="">
+                <a href="/products/flow.html"> <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Flow_Logo_white.png" alt="">
                   <h3>Build tech skills to drive results</h3>
                 </a>
                  <hr class="product_hr">

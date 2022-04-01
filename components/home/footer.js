@@ -70,10 +70,10 @@ function footer(){
        <img src="https://www.pluralsight.com/content/dam/pluralsight2/general/icons/light/ps-icon.png" alt="">
        <p>Copyright © 2004-2022 Pluralsight LLC.All rights reserved </p>
    </div>
-   <div>
-        <p><a href="">Terms Of Use</a</p>
-   <p><a href="">Privacy Notice</a></p>
-   <p><a href="">Modern Slavery Act Transparency Statement</a></p>
+   <div class="mid_data">
+        <h4><a href="">Terms Of Use</a</h4>
+   <h4><a href="">Privacy Notice</a></h4>
+   <h4><a href="">Modern Slavery Act Transparency Statement</a></h4>
 </div>
    <div id="class">
        <a href="">

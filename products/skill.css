@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px;
+    padding: 0px; */
     box-sizing: border-box;
     font-family: "PS Commons", sans-serif;
   }
@@ -18,16 +18,17 @@
     position: absolute;
     right: 0px;
     width: 70%;
+    height: auto;
   }
   .content .logo_skil img {
     position: absolute;
     width: 12%;
-    left: 2%;
+    left: 4%;
     top: 10%;
   }
   .design img {
     position: absolute;
-    left: 2%;
+    left: 4%;
     top: 10%;
     width: 17%;
   }

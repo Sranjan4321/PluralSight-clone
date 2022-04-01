@@ -1,11 +1,9 @@
-.container{
-    /* margin-top: 80px;    */
-   }
+
         .dhakkan{
             height: 500px;
             background-color: black;
              width: 100%;
-             margin-bottom: 2rem;
+             /* margin-bottom: 2rem; */
            
         }
         .details{
@@ -35,9 +33,7 @@
             width: 20px;
    
         }
-      .twitter{
-          /* margin-left: 135px; */
-      }
+     
       .mid-line{
           /* padding: 1px; */
           /* border: 1px solid black; */
