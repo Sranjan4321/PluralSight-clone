@@ -161,7 +161,7 @@ function navbar(){
           <button class="link" data-dropdown-button></button>
         </div>
       </li>
-      <li class="primary_link"><a href="">ForInduvisuals</a></li>
+      <li class="primary_link"><a href="/indivisual/individuals.html">For Induvisual</a></li>
     </ul>
     <ul
       class="other_main"
@@ -184,13 +184,13 @@ function navbar(){
           <div class="dropdown_menu_login" style="color: black">
           <div class="sign_main">
             <div class="left_sign">
-              <a href="#">
+              <a href="/SignIn/signin.html">
               <p>sighn in with</p>
               <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Skill_logo_white.png" alt="">
               </a>
               </div>
               <div class="right_sign">
-                <a href="#">
+                <a href="/SignIn/signin.html">
                   <p>sighn in with</p>
                   <img src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/Flow_Logo_white.png" alt="">
                   </a>

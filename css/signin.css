@@ -2,11 +2,14 @@ body {
     margin: 0;
     background-color: #0d0f12;
     color: hsla(0,0%,100%,.95);
+    font-size: 1rem;
 }
 #signin{
     display: flex;
+    justify-content: space-around;
 }
 #left{
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin: 45px 100px auto 100px;
@@ -21,11 +24,14 @@ body {
   margin-bottom: 40px;
 
 }
+form{
+    margin-bottom: 2rem;
+}
 #left #left-signin form label{
     display: block;
     font-family: sans-serif;
     color: hsla(0,0%,100%,.95);
-    font-size: 16px;
+    /* font-size: 16px; */
     margin-bottom: 4px;
     
 }
@@ -33,9 +39,9 @@ body {
     background-color: #0d0f12;
     border: 1px solid rgb(118, 119, 122);
     height: 35px;
-    width: 338px;
+    width: 90%;
     padding: 2px;
-    font-size: 100%;
+  
     line-height: 1.15;
     margin-bottom: 30px;
     display: block; 
@@ -45,12 +51,17 @@ body {
 }
 #left #left-signin form #submit{
     color: white;
+    /* padding: 20px; */
+    font-size: 20px;
+    align-items: center;
     background-color: rgb(0,116,171);
     border-radius: 3px;
     cursor: pointer;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    /* margin: 0px; */
     font-weight: bold;  
     transition: 0.5s;
+    
 }
 #left #left-signin form #submit:hover{
     
