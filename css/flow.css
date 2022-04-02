@@ -1,6 +1,7 @@
 #flow{
     background-color: rgb(34,34,34);
     width: 100%;
+    margin-top: -65px;
 }
 #main-flow{
     display: flex;

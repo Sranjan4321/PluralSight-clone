@@ -2,6 +2,14 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/components/navbar.js" defer></script>
+ <link rel="stylesheet" href="/components/navbar.css" />
+ <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/platform/courses/courses.css">
 <style>
@@ -9,8 +17,9 @@
 </style>
 </head>
 <body>
-<div><img src="https://www.pluralsight.com/content/pluralsight/en/global/promos/tech-bingo/jcr:content/main/promo_wrapper_copy_c/parsys/generic_block_108870_2137438330/parsys/generic_block_363416/parsys/columns/column-parsys-1/animation_wrapper/parsys/image/image-res.img.c856ede7-6dbf-4a82-a798-36a3ecf7d5c6.png" alt=""></div>
-     <div id="MAJOR" style="margin-top:50px">
+    <nav id="navbar"></nav>
+<!-- <div><img src="https://www.pluralsight.com/content/pluralsight/en/global/promos/tech-bingo/jcr:content/main/promo_wrapper_copy_c/parsys/generic_block_108870_2137438330/parsys/generic_block_363416/parsys/columns/column-parsys-1/animation_wrapper/parsys/image/image-res.img.c856ede7-6dbf-4a82-a798-36a3ecf7d5c6.png" alt=""></div> -->
+     <div id="MAJOR" style="margin-top: 114px;">
          <div id="skills">
              <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png" alt=""></div>
          </div>
@@ -31,11 +40,9 @@
 <button class="collapsible">Ways to learn <img class="dhundha" src="https://cdn.sstatic.net/Img/hero/anonymousHeroUpvote.svg?v=af2bb70d5d1b" alt=""></button>
 <div class="content">
    <div><li><b>All</b></li></div>
-   <div><b> <li> Core courses</b><li></b></div>
-   <div><b> <li> Expanded courses</b></li></div>
-   <div><b> <li> 
-Labs
-   </li> </b></div>
+   <div><b> <li> Core courses</b></li></div>
+   <div><b> <li> Expanded </b></li></div>
+   <div><b> <li>Labs</li> </b></div>
    
 </div>
 <button class="collapsible">Skills<img class="dhundha" src="https://cdn.sstatic.net/Img/hero/anonymousHeroUpvote.svg?v=af2bb70d5d1b" alt=""></button>
@@ -664,4 +671,11 @@ Creative professional
     
     </body>
     </html>
-    
+    <script type="module">
+        import navbar from "/components/navbarhtml.js";
+        import footer from "/components/home/footer.js"
+        let footers=document.getElementById("foot")
+        let navbars = document.getElementById("navbar");
+        navbars.innerHTML = navbar();
+        footers.innerHTML=footer()
+      </script>
