@@ -81,8 +81,9 @@
       height: auto;
   }
  .header {
-     display: block;
+     display: flex;
      text-align: center;
+     flex-direction: column;
  }
  .header h3{
      color: #ec008c;
@@ -162,7 +163,7 @@
      color: gray;
  }
  .last_text {
-     margin-top: 9rem;
+     margin-top: 2rem;
  }
  .last_text h5{
      color: rgb(203, 193, 193);
