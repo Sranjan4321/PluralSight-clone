@@ -33,7 +33,7 @@ let accountData=JSON.parse(localStorage.getItem("accounts"))||[];
             if(flag==1)
             {
                 alert("Login successful.");
-                location.href="index.html";
+                location.href="/components/home/index.html";
             }
             else if(flag==2)
             {

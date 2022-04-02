@@ -160,7 +160,7 @@ function navbar(){
           <button class="link" data-dropdown-button></button>
         </div>
       </li>
-      <li class="primary_link"><a href="/indivisual/individuals.html">For Induvisual</a></li>
+      <li class="primary_link"><a href="/indivisual/individuals.html">For Individual</a></li>
     </ul>
     <ul
       class="other_main"
