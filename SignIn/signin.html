@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=div, initial-scale=1.0">
-   
-   
     <title>Sign In | Pluralsight</title>
     <link rel="stylesheet" href="/css/signin.css">
 </head>
@@ -17,17 +15,17 @@
                     <img src="https://app.pluralsight.com/id/img/login-logo.png" alt="PluralLogo">
                 </div>
                 
-                <form action="">
+                <form id="loginaction" action="">
                     <label for="username">Email or Username</label>
                     <input type="text" id="username">
                     <label for="password">Password</label>
                     <input type="password" id="password">
                     <input type="submit" id="submit" value="Sign in">
                 </form>
-                <h4 onclick="window.location.href='/SignIn/forgot.html'" id="forgot">Forgot password?</h4>
+                <h4 id="forgot">Forgot password?</h4>
                 <h4 id="company">Sign in with company or school</h4>
                 <hr>
-                <center><a href="./pricing.html"><button id="createNew" >Create an account</button></a></center>
+                <center><a href="./signup.html"><button id="createNew" >Create an account</button></a></center>
             </div>
             <footer id="footer">
                 Copyright &copy; 2004 - 2022 Pluralsight LLC. All rights reserved.
@@ -53,3 +51,4 @@
     
 </body>
 </html>
+<script src="/script/signin.js"></script>
