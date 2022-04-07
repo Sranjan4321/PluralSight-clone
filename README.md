@@ -8,7 +8,7 @@ On-demand training made simple.  training for individuals and businesses! Top-ra
 - JAVASCRIPT
 - Browser LocalStorage for Frontend
 
-- [Blog Link]()
+- [Blog Link](https://medium.com/@chandutheruler3/technology-workforce-development-website-clone-ad865a7a8ebc)
 
 
 ## Features 
